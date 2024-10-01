@@ -8,33 +8,51 @@ function App() {
     //nut nay xai cho vui th.
     <div className="container-fluid">
       <nav className="navbar navbar-expland-lg navbar-dark bg-dark ">
-        <a class="navbar-brand" href="https://darksouls3.wiki.fextralife.com/Dark+Souls+3+Wiki">
-          <img src={img3} alt="brand-logo" width="180" height="70"></img>
-        </a>
 
 
         <div class="container-fluid">
           <ul class="nav navbar-nav">
-            <li class ="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" role="button" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-labelledby="dropdownMenuButton">General</a>
+          <li class ="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-labelledby="dropdownMenuButton">Home</a>
                 <div class="dropdown-menu" id="dropdownMenuButton" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/General+Information">General</a>
+                  <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/Dark+Souls+3+Wiki">Wiki Home</a>
+                  <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/Media+&+Community">Media&Community</a>
                 </div> 
             </li>
-
-
-            <li class ="nav-item">
-              <a class="nav-link active" href="https://darksouls3.wiki.fextralife.com/Character+Information">Character</a>
+            <li class ="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-labelledby="dropdownMenuButton">General</a>
+                <div class="dropdown-menu" id="dropdownMenuButton" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/General+Information">General</a>
+                  <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/Dark+Souls+3+Wiki">Dark Soul 3</a>
+                </div> 
             </li>
-            <li class ="nav-item">
-              <a class="nav-link active" href="https://darksouls3.wiki.fextralife.com/Equipment+&+Magic">Equipment & Magic</a>
+            <li class ="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-labelledby="dropdownMenuButton">Character</a>
+                <div class="dropdown-menu" id="dropdownMenuButton" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/Character+Information">Character Information</a>
+                  <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/Classes">Classes</a>
+                </div> 
             </li>
-            <li class ="nav-item">
-              <a class="nav-link active" href="https://darksouls3.wiki.fextralife.com/World+Information">World</a>
+            <li class ="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-labelledby="dropdownMenuButton">Equipment</a>
+                <div class="dropdown-menu" id="dropdownMenuButton" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/Equipment+&+Magic">Equipment&Magic</a>
+                  <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/Skills">Skills</a>
+                </div> 
+            </li>
+            <li class ="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-labelledby="dropdownMenuButton">World</a>
+                <div class="dropdown-menu" id="dropdownMenuButton" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/World+Information">World Information</a>
+                  <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/Locations">Locations</a>
+                </div> 
             </li>
           </ul>
        </div>
       </nav>
+        <a href="https://darksouls3.wiki.fextralife.com/Dark+Souls+3+Wiki">
+          <img src={img3} alt="brand-logo" width="220" height="90"></img>
+        </a>
         <div className="text-center">
             <a href="https://darksouls3.wiki.fextralife.com/Dark+Souls+3+Wiki">DS3</a><br></br>
             <img src={img} alt="Cinque Terre" className="rounded-corners" width="560" height="300"/>
@@ -60,7 +78,7 @@ function App() {
         </div>
         <div className="text-left mt-3">
             <p class="text-left">The Ringed City DLC is the second and final <a href="https://darksouls3.wiki.fextralife.com/DLC">DLC</a> for <a href="https://darksouls3.wiki.fextralife.com/Dark+Souls+3+Wiki">Dark Souls 3</a>. It was announced on January 23rd, 2017 by Bandai Namco and released on March 28th, 2017. It is recommended by the developers for players that have cleared <a href="https://darksouls3.wiki.fextralife.com/Lothric+Castle">Lothric Castle</a>. This can be accessed from the Kiln of the First Flame, where you'll need to go to a bonfire near a ramp that leads to the Soul of Cinder Arena. You can also access this from Sister Friede's arena located in the Painted World of Ariandel. These entry points allow players to venture into new areas and face unique challenges within the DLC. 
-              On April 21st, <a href="https://darksouls3.wiki.fextralife.com/Dark+Souls+3+The+Fire+Fades+Edition">Dark Souls 3: The Fire Fades GOTY Edition</a> released which includes the base game as well as both expansions, Ashes of Ariandel and The Ringed City.
+            <br></br>On April 21st, <a href="https://darksouls3.wiki.fextralife.com/Dark+Souls+3+The+Fire+Fades+Edition">Dark Souls 3: The Fire Fades GOTY Edition</a> released which includes the base game as well as both expansions, Ashes of Ariandel and The Ringed City.
             <br></br>The Ringed City launched March 28th on PS4, Xbox One and PC for 14.99 or is part of the Season Pass.
             <br></br>Screenshots pre-launch: Article here, and here
             <br></br>Dark Souls 3 The Ringed City Review! 9.5/10</p>
