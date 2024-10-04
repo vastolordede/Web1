@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css';
 import img from "./thumb-1920-1347168.png";
 import img2 from "./dlc2_11.webp";
 import img1 from "./mapon_bridge_dks3-dlc.jpg";
@@ -8,15 +9,15 @@ function App() {
     //nut nay xai cho vui th.
     <div className="container-fluid">
       <nav className="navbar navbar-expland-lg navbar-dark bg-dark ">
-
-
-        <div class="container-fluid">
+      <div class="container-fluid">
           <ul class="nav navbar-nav">
-          <li class ="nav-item dropdown">
+            <li class ="nav-item dropdown">
               <a class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-labelledby="dropdownMenuButton">Home</a>
                 <div class="dropdown-menu" id="dropdownMenuButton" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/Dark+Souls+3+Wiki">Wiki Home</a>
                   <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/Media+&+Community">Media&Community</a>
+                  <a class="dropdown-item" href="">Wiki Forums</a>
+                  <a class="dropdown-item" href="">Wiki To-Do</a>
                 </div> 
             </li>
             <li class ="nav-item dropdown">
@@ -24,6 +25,12 @@ function App() {
                 <div class="dropdown-menu" id="dropdownMenuButton" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/General+Information">General</a>
                   <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/Dark+Souls+3+Wiki">Dark Soul 3</a>
+                  <a class="dropdown-item" href="">DLC</a>
+                  <a class="dropdown-item" href="">Secrets</a>
+                  <a class="dropdown-item" href="">Controls</a>
+                  <a class="dropdown-item" href="">Covenets</a>
+                  <a class="dropdown-item" href="">Bornfires</a>
+                  <a class="dropdown-item" href="">Lord Of Cinder</a>
                 </div> 
             </li>
             <li class ="nav-item dropdown">
@@ -31,6 +38,9 @@ function App() {
                 <div class="dropdown-menu" id="dropdownMenuButton" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/Character+Information">Character Information</a>
                   <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/Classes">Classes</a>
+                  <a class="dropdown-item" href="">Gifts</a>
+                  <a class="dropdown-item" href="">Gestures</a>
+                  <a class="dropdown-item" href="">Builds</a>
                 </div> 
             </li>
             <li class ="nav-item dropdown">
@@ -38,6 +48,14 @@ function App() {
                 <div class="dropdown-menu" id="dropdownMenuButton" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/Equipment+&+Magic">Equipment&Magic</a>
                   <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/Skills">Skills</a>
+                  <a class="dropdown-item" href="">Spells</a>
+                  <a class="dropdown-item" href="">Souls Transposition</a>
+                  <a class="dropdown-item" href="">Weapons</a>
+                  <a class="dropdown-item" href="">Shields</a>
+                  <a class="dropdown-item" href="">Armor</a>
+                  <a class="dropdown-item" href="">Rings</a>
+                  <a class="dropdown-item" href="">Updates</a>
+                  <a class="dropdown-item" href="">Items</a>
                 </div> 
             </li>
             <li class ="nav-item dropdown">
@@ -45,10 +63,15 @@ function App() {
                 <div class="dropdown-menu" id="dropdownMenuButton" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/World+Information">World Information</a>
                   <a class="dropdown-item" href="https://darksouls3.wiki.fextralife.com/Locations">Locations</a>
+                  <a class="dropdown-item" href="">Covenets</a>
+                  <a class="dropdown-item" href="">NPCs</a>
+                  <a class="dropdown-item" href="">Mechants</a>
+                  <a class="dropdown-item" href="">Enemies</a>
+                  <a class="dropdown-item" href="">Lore</a>
                 </div> 
             </li>
           </ul>
-       </div>
+      </div>
       </nav>
         <a href="https://darksouls3.wiki.fextralife.com/Dark+Souls+3+Wiki">
           <img src={img3} alt="brand-logo" width="220" height="90"></img>
